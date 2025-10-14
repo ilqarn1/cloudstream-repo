@@ -1,0 +1,28 @@
+{
+  "name": "Dizipal1063",
+  "version": 1,
+  "language": "tr",
+  "languages": ["tr"],
+  "icon": "https://dizipal1063.com/favicon.ico",
+  "description": "Dizipal1063 - Türkçe Dizi ve Filmler",
+  "website": "https://dizipal1063.com",
+  "categories": ["movies", "series"],
+  "resources": ["movie", "tv"],
+  "versionCode": 1,
+  "hosts": ["dizipal1063.com"],
+  "search": {
+    "method": "GET",
+    "url": "https://dizipal1063.com/arama?q=$query$",
+    "handler": "html"
+  },
+  "movieList": {
+    "method": "GET", 
+    "url": "https://dizipal1063.com/filmler",
+    "handler": "html"
+  },
+  "tvList": {
+    "method": "GET",
+    "url": "https://dizipal1063.com/diziler", 
+    "handler": "html"
+  }
+}
