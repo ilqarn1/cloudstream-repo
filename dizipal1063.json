@@ -16,13 +16,13 @@
     "handler": "html"
   },
   "movieList": {
-    "method": "GET", 
+    "method": "GET",
     "url": "https://dizipal1063.com/filmler",
     "handler": "html"
   },
   "tvList": {
     "method": "GET",
-    "url": "https://dizipal1063.com/diziler", 
+    "url": "https://dizipal1063.com/diziler",
     "handler": "html"
   }
 }
